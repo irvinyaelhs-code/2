@@ -1,0 +1,35 @@
+{
+    "name": "2",
+    "description": "",
+    "dependencies": {
+        "core": "*",
+        "microphone": "*",
+        "audio-recording": "*",
+        "datalogger": "*",
+        "pxt-sonar": "github:microsoft/pxt-sonar#v0.0.6",
+        "servo": "*",
+        "MaqueenPlus": "github:dfrobot/pxt-dfrobot-maqueenplus#v1.5.1",
+        "TobbieII": "github:kaku111/pxt-tobbieii#v2.0.3",
+        "my-controller": "github:aorczyk/my-controller#v2.2.4",
+        "pxt-robotcar": "github:veilkrand/pxt-robotcar#v0.0.14",
+        "bluetooth": "*",
+        "pxt-plenbit_full": "github:plenprojectcompany/pxt-plenbit_full#v0.0.1"
+    },
+    "files": [
+        "main.blocks",
+        "main.ts",
+        "README.md",
+        "main.py"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "targetVersions": {
+        "target": "9.0.12",
+        "targetId": "microbit"
+    },
+    "supportedTargets": [
+        "microbit"
+    ],
+    "preferredEditor": "blocksprj"
+}
